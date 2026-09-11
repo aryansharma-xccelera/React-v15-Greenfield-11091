@@ -5,7 +5,7 @@ export default {
   server: {
     port: 41247,
     strictPort: true,
-    allowedHosts: ['.trycloudflare.com'],
+    allowedHosts: true,
   },
   test: {
     environment: 'jsdom',
